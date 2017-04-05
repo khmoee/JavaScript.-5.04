@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+       <script src ="script12.js"></script>
+ </head> 
+ <body>  
+    <header>
+    <p id="uppertitle"><img src="webLogo.png" alt="Логотип" /></p>
+    <h1>Основы WEB-технологий</h1>
+             <nav>
+             
+ <ul class="calcForm">
+   <li class="navigation"><a href="index.html">Главная</a></li>
+   <li class="navigation" id="menuX"><a href="groups.html">Web технологии</a>
+        <ul>
+            <li class="dropMenu" id="dropMenu1"><a href="html.html">HTML5</a></li>
+            <li class="dropMenu" id="dropMenu2"><a href="css.html">CSS3</a></li>    
+            <li class="dropMenu" id="dropMenu3"><a href="js.html">JavaScript</a></li>
+        </ul>    
+    </li>
+   <li class="navigation"><a href="calc.html">Калькулятор</a></li>
+   <li class="navigation"><a href="test.html">Тест</a></li>
+</ul>
+            </nav>
+            
+    </header>
+<main>   
+       <form name="testList">
+ <div>Какой тег предназначен для создания ссылок:<br />
+ 
+<label><input name="taglink1" type="radio" value="a" id="answer1"/>&lt;a&gt;<br /></label>
+<label><input name="taglink1" type="radio" value="a/" />&lt;a /&gt;<br /></label>
+<label><input name="taglink1" type="radio" value="ref" />&lt;ref&gt;<br /></label>
+<label><input name="taglink1" type="radio" value="ref/" />&lt;ref /&gt;<br /></label>
+   
+</div>
+
+<div>Какой тег предназначен для создания нумерованного списка:<br />
+    
+<label><input name="taglist2" type="radio" value="li" />&lt;li&gt;<br /></label>
+<label><input name="taglist2" type="radio" value="dl" />&lt;dl&gt;<br /></label>
+<label><input name="taglist2" type="radio" value="ol" id="answer2" />&lt;ol&gt;<br /></label>
+<label><input name="taglist2" type="radio" value="ul" />&lt;ul&gt;<br /></label>
+    
+</div>
+
+<div>Какой тег предназначен для передачи служебной информации браузеру:<br />
+    
+<label><input name="taginfo3" type="radio" value="info" />&lt;info&gt;<br /></label>
+<label><input name="taginfo3" type="radio" value="info/" />&lt;info/&gt;<br /></label>
+<label><input name="taginfo3" type="radio" value="meta" id="answer3"/>&lt;meta&gt;<br /></label>
+<label><input name="taginfo3" type="radio" value="meta/" />&lt;meta/&gt;<br /></label>
+  
+
+</div>
+<div>Какие теги используется при создания таблицы:<br />
+    
+<label><input type="checkbox" name="checkbox1" value="body" />&lt;bodyt&gt;<br /></label>
+<label><input type="checkbox" name="checkbox1" value="td" class="checkB"/>&lt;td&gt;<br /></label>
+<label><input type="checkbox" name="checkbox1" value="caption" class="checkB" />&lt;caption&gt;<br /></label>
+<label><input type="checkbox" name="checkbox1" value="column" />&lt;column&gt;<br /></label>
+    
+</div>
+
+<div>Какие атрибуты используются при создании форм:<br />
+    
+<label><input type="checkbox" name="checkbox2" value="autocomplete" class="checkB"/>autocomplete<br /></label>
+<label><input type="checkbox" name="checkbox2" value="action" class="checkB" />action<br /></label>
+<label><input type="checkbox" name="checkbox2" value="charset" />charset<br /></label>
+<label><input type="checkbox" name="checkbox2" value="validate" />validate<br /></label>
+
+<button type="button" name="testSubmit" id="testButton"  onclick="Result()" >Результат</button>    
+</div>      
+    
+
+
+
+    </form>
+
+
+</main>
+
+  <footer>
+      <address>
+    Пишите <a href="mailto:khmoee@gmail.com">khmoee@gmail.com</a>
+      </address>
+      <p>© Даняев Дмитрий Викторович 2017 г.</p>
+</footer>
+
+ </body> 
+</html>

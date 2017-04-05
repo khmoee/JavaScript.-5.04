@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title>Test</title>
+     <script src="script12.js"> </script>
+    <link rel="stylesheet" href="style.css">
+    
+
+  
+ </head>
+ <body>  
+    <header>
+    <p id="uppertitle"><img src="webLogo.png" alt="Логотип" /></p>
+    <h1>Основы WEB-технологий</h1>
+             <nav>
+             
+ <ul class="calcForm">
+   <li class="navigation"><a href="index.html">Главная</a></li>
+   <li class="navigation" id="menuX"><a href="groups.html">Web технологии</a>
+        <ul>
+            <li class="dropMenu" id="dropMenu1"><a href="html.html">HTML5</a></li>
+            <li class="dropMenu" id="dropMenu2"><a href="css.html">CSS3</a></li>    
+            <li class="dropMenu" id="dropMenu3"><a href="js.html">JavaScript</a></li>
+        </ul>    
+    </li>
+   <li class="navigation"><a href="calc.html">Калькулятор</a></li>
+   <li class="navigation"><a href="test.html">Тест</a></li>
+</ul>
+            </nav>
+            
+    </header>
+<main>
+     <form name="calculator">
+            <table> 
+      
+   <tr> 
+      <td colspan="5" id="result"><input disabled id="resultSpace" type="text" name="text" /> </td>
+   </tr>
+    
+   <tr>
+      <td><button value="7" type="button" name="calc7" class="calcsulatorLeft"  onclick="addNumber(7)">7</button></td>
+      <td><button value="9"  type="button" name="calc8" class="calcsulator" onclick="addNumber(8)">8</button></td>
+     <td><button  value="9"  type="button" name="calc9" class="calcsulator" onclick="addNumber(9)">9</button></td>
+      <td><button  value="/"  type="button" name="calcDivision" class="calcsulator" onclick="division()">/</button></td>
+      <td><button  value=""  type="reset" name="calcClear" class="calcsulatorRight" onclick="clear()">C</button></td>
+   </tr>
+    <tr>
+      <td><button  value="4"  name="calc4" type="button" class="calcsulatorLeft" onclick="addNumber(4)">4</button></td>
+      <td><button  value="5"  name="calc5" type="button" class="calcsulator" onclick="addNumber(5)">5</button></td>
+      <td><button   value="6" name="calc6" type="button" class="calcsulator" onclick="addNumber(6)">6</button></td>
+      <td><button  value="*"  name="calcMult" type="button" class="calcsulator" onclick="multiply()">*</button></td>
+      <td><button  value="&#177;"  name="calcPlusMinus" type="button" class="calcsulatorRight" onclick="changeSign()">&plusmn;</button></td>
+   </tr>
+   <tr>
+     <td><button  value="1"  name="calc1" type="button" class="calcsulatorLeft" onclick="addNumber(1)">1</button></td>
+      <td><button  value="2" name="calc2" type="button" class="calcsulator" onclick="addNumber(2)">2</button></td>
+      <td><button  value="3" name="calc3" type="button" class="calcsulator" onclick="addNumber(3)">3</button></td>
+      <td><button  value="-" name="calcMinus" type="button" class="calcsulator" onclick="minus()">-</button></td>
+      <td rowspan="2"><button  value="=" name="calcEq" type="button" class="calcsulatorRight" id="Eq" onclick="equall()">=</button></td>
+   </tr>
+   <tr>
+      <td colspan="2"><button   value="0" name="calc0" type="button" class="calcsulatorLeft" onclick="addZero(0)">0</button></td>
+      <td><button  value="." name="calcDot" type="button" class="calcsulator" id="Dot" onclick="addDot('.')"> . </button></td> 
+      <td><button  value="+" name="calcplus" type="button" class="calcsulator" onclick="addition()">+</button></td> 
+      
+   </tr>
+                </table>
+         </form>       
+</main>
+  <footer>
+      <address>
+         Пишите <a href="mailto:khmoee@gmail.com">khmoee@gmail.com</a>
+      </address>
+      <p>© Даняев Дмитрий Викторович 2017 г.</p>
+   </footer>
+
+ </body> 
+</html>
